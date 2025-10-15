@@ -20,6 +20,8 @@ class MPT{
     void removeDuplicateNodes();
     void printList();
     bool isEmpty();
+    Node* findMidNode();
+    Node* rotateList(int p);
     Node* getHead(){
         return head;
     }
